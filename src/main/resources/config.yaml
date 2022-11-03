@@ -1,0 +1,16 @@
+browser:
+  browserName: chrome
+  headless: true
+  attachScreenshot: false
+  webElementTimeout: 30
+environment:
+  int:
+    env_name: int
+    appUrl: https://www.selenium.dev/documentation/en/webdriver/
+    title: WebDriver | Selenium
+    active: true
+  test:
+    env_name: test
+    appUrl: https://www.filmweb.pl/
+    title: Filmweb - filmy takie jak Ty!
+    active: false
